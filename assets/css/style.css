@@ -282,6 +282,23 @@
 .how-home p {
   font-size: 16px;
 }
+@media only screen and (max-width: 991px) and (min-width: 776px) {
+  .how-home h3 {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+
+  .how-home p {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: -20px;
+  }
+
+  .how-home img {
+    width: 250px;
+    height: 440px;
+  }
+}
 
 @media only screen and (max-width: 776px) {
   .how-home h1 {
@@ -371,7 +388,9 @@
   background-color: #31694c;
   margin-bottom: 70px !important;
 }
-
+.social a:hover .react-icon{
+  color: #eaf3ef !important;
+}
 /* End footer home section  */
 
 .scroll-to-top {
