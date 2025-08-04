@@ -1234,7 +1234,6 @@ Portfolio
   height: 180px;
   border-radius: 12px;
 }
-
 /* 
 ---------------------------------------------
 Blog
@@ -1406,7 +1405,7 @@ contact
   font-size: 15px;
   font-weight: 400;
 }
-
+/* 
 form#contact .contact-dec {
   position: absolute;
   right: -166px;
@@ -1461,11 +1460,11 @@ form#contact textarea {
   margin-bottom: 20px;
 }
 
-form#contact textarea::placeholder {
+/* form#contact textarea::placeholder {
   color: #2a2a2a;
 }
 
-form#contact button {
+ form#contact button {
   display: inline-block;
   background-color: #03a4ed;
   font-size: 15px;
@@ -1483,21 +1482,20 @@ form#contact button {
 form#contact button:hover {
   background-color: #fe3f40;
 }
-
-/* 
+ 
 ---------------------------------------------
 Footer Style
 --------------------------------------------- 
 */
 
-footer p {
+/* footer p {
   text-align: center;
   margin: 30px 0px 45px 0px;
-}
+} */
 
-footer p a {
+/* footer p a {
   color: #fe3f40;
-}
+} */
 
 /* 
 ---------------------------------------------
@@ -1577,7 +1575,7 @@ responsive
   .our-portfolio .item {
     margin-bottom: 15px;
   }
-  .our-blog {
+  /* .our-blog {
     margin-top: 0px;
   }
   .our-blog .top-dec {
@@ -1599,15 +1597,15 @@ responsive
   }
   .our-blog .left-image {
     margin-bottom: 45px;
-  }
-  .contact-us {
+  } */
+  /* .contact-us {
     margin-top: 60px;
     padding: 120px 0px;
   }
   .contact-us .section-heading {
     text-align: center;
-  }
-  form#contact {
+  } */
+  /* form#contact {
     margin-left: 0px;
     margin-top: 30px;
   }
@@ -1616,7 +1614,7 @@ responsive
   }
   footer p {
     margin: 15px 0px 30px 0px;
-  }
+  } */
 }
 
 @media (max-width: 767px) {

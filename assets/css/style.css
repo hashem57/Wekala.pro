@@ -3,14 +3,15 @@
 .navbar-home img {
   width: 80px;
   height: 70px;
-  margin-right: 150px;
-  margin-left: -40px;
+  margin-right: 150px !important;
+  margin-left: -40px !important;
   margin-bottom: 20px;
 }
 
 .navbar-nav a {
   color: black !important;
-  margin-right: 20px;
+  margin-right: 20px !important;
+  font-size: 16px !important;
 }
 
 .navbar-nav a:hover {
@@ -18,7 +19,7 @@
 }
 
 .dropdown-home {
-  margin-left: 180px;
+  margin-left: 180px !important;
 }
 
 .dropdown-toggle:hover {
@@ -40,17 +41,17 @@
 
 @media only screen and (min-width: 991px) and (max-width: 1400px) {
   .navbar-home img {
-    margin-right: 50px;
-    margin-left: -40px;
+    margin-right: 50px !important;
+    margin-left: -40px !important;
   }
 
   .navbar-nav a {
-    margin-right: 0px;
-    font-size: 14px;
+    margin-right: 0px !important;
+    font-size: 14px !important;
   }
 
   .dropdown-home {
-    margin-left: 50px;
+    margin-left: 50px !important;
   }
 }
 
@@ -59,18 +60,23 @@
     height: fit-content;
   }
 
+  .navbar-home img {
+    margin-right: 0px !important;
+    margin-left: -40px !important;
+  }
+
   .toggler-img-icon {
     width: 50px !important;
     height: 40px !important;
-    margin-right: 5px !important;
-    border: none;
+    margin-left: 10px !important;
+    border: none !important;
   }
   .navbar-toggler:focus {
-    box-shadow: none;
+    box-shadow: none !important;
   }
 
   .navbar-nav a {
-    margin-right: 0px;
+    margin-right: 0px !important;
   }
 
   .navbar-nav a:hover {
@@ -79,7 +85,7 @@
   }
 
   .dropdown-home {
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
 }
 
@@ -92,7 +98,7 @@
 }
 
 .header-home h2 {
-  font-size: 50px !important;
+  font-size: 50px !important ;
   margin-top: 40px !important;
   margin-bottom: 40px !important;
 }
@@ -143,6 +149,12 @@
     margin-bottom: -200px !important;
   }
 
+  .header-home h2 {
+    font-size: 40px !important;
+    text-align: left;
+    margin-top: -40px !important;
+    margin-bottom: 10px !important;
+  }
   .header-home p {
     font-size: 16px !important;
   }
@@ -155,7 +167,7 @@
   }
 
   .header-home img {
-    margin-top: -40px;
+    margin-top: -100px;
   }
 }
 
@@ -194,7 +206,7 @@
 
   .who-content h4 {
     color: #eaf3ef;
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
   .wow,
@@ -222,10 +234,11 @@
   color: #31694c;
   margin-top: 100px !important;
   margin-bottom: 30px !important;
+  font-size:40px ;
 }
 
 .product-home p {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 .Carousel-img {
@@ -333,11 +346,13 @@
 }
 .message-home iframe {
   border-radius: 20px;
+  width: 100%;
 }
+
 
 @media only screen and (max-width: 1400px) and (min-width: 991px) {
   .message-home iframe {
-    width: 500px;
+    width:100%;
   }
 }
 
@@ -347,9 +362,12 @@
   }
 
   .message-home iframe {
-    width: 100%;
+    width: 100% !important;
   }
-
+  #contact {
+    margin-left: 0px;
+    height: fit-content !important;
+  }
   .contact-form {
     width: 100% !important;
   }
@@ -357,6 +375,7 @@
   footer .social {
     margin-top: 20px !important;
   }
+  
 }
 @media only screen and (max-width: 776px) {
   .message-home {
@@ -364,15 +383,18 @@
   }
   .message-home iframe {
     margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
   }
 
   #contact {
-    width: 100% !important;
+    margin-left: 0px;
   }
 
   .contact-form {
     padding: 0px !important;
     margin-top: -7px;
+    width: 100%;
   }
 
   footer .social {
@@ -388,8 +410,306 @@
   background-color: #31694c;
   margin-bottom: 70px !important;
 }
-.social a:hover .react-icon{
+.social a:hover .react-icon {
   color: #eaf3ef !important;
+}
+/* End footer home section  */
+
+.scroll-to-top {
+  z-index: 1000 !important;
+}
+
+/* ==================================================================== */
+/* ==================================================================== */
+/* ===============================AR=================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+
+/* Start navbar AR home section  */
+
+.navbar-home-ar img {
+  width: 80px;
+  height: 70px;
+  margin-right: -40px !important;
+  margin-left: 150px !important;
+  margin-bottom: 20px !important;
+}
+
+.nav-content-ar a {
+  color: black !important;
+  margin-left: 20px !important;
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+  font-family: "Cairo", sans-serif !important;
+}
+.dropdown-home-ar {
+  margin-right: 180px !important;
+}
+
+.drop-content-ar {
+  background-color: #eaf3ef;
+  border-radius: 20px;
+}
+
+.drop-content-ar a:nth-of-type(1) {
+  text-align: right;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.drop-content-ar a:nth-of-type(2) {
+  text-align: left;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+  .navbar-home-ar img {
+    margin-right: -40px !important;
+    margin-left: 40px !important;
+
+  }
+
+  .nav-content-ar a {
+    color: black !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: "Cairo", sans-serif;
+  }
+  .dropdown-home-ar {
+    margin-right: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-home-ar {
+    height: fit-content;
+  }
+    .navbar-home-ar img {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+
+  }
+
+  .toggler-img-icon-ar {
+    width: 50px !important;
+    height: 40px !important;
+    margin-right: -40px !important;
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-nav-ar a {
+    margin-left: 0px !important;
+  }
+
+  .drop-content-ar a:hover {
+    background-color: #eaf3ef;
+    width: 100%;
+  }
+
+  .dropdown-home-ar {
+    /* margin-left: 0px !important; */
+    margin-right: 0px !important;
+  }
+    .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+}
+/* End navbar AR home section  */
+
+/* Start header AR home section  */
+
+.header-home-ar {
+  background-color: #eaf3ef;
+}
+
+.header-home-ar h2 {
+  font-size: 50px !important;
+  font-family: "Cairo", sans-serif !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  color: black;
+  font-style: normal;
+}
+.header-home-ar h2 span {
+  color: #830a4d;
+}
+
+.header-home-ar h6 {
+  font-size: 24px !important;
+  font-family: "Cairo", sans-serif !important;
+  text-transform: none !important;
+  color: #db8a74;
+}
+
+.header-home-ar p {
+  font-size: 18px !important;
+  margin-top: 10px !important;
+  margin: 20px 0px;
+}
+
+.header-home-ar a {
+  font-size: 24px;
+  margin-top: 35px;
+  border-radius: 12px;
+  font-weight: 500;
+  color: #31694c;
+  padding-bottom: 12px;
+  letter-spacing: 0.25px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .header-home-ar h2 {
+    font-size: 40px !important;
+    text-align: right !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-weight: 700;
+    line-height: 72px;
+  }
+
+  .header-home-ar h6 {
+    font-size: 22px !important;
+    text-align: right;
+  }
+
+  .header-home-ar p {
+    margin-top: 0px !important;
+    text-align: right;
+  }
+
+  .header-home-ar a {
+    font-size: 24px;
+    margin-top: 40px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header-home-ar {
+    margin-bottom: -200px !important;
+  }
+
+  .header-home-ar p {
+    font-size: 16px !important;
+  }
+
+  .header-home-ar a {
+    margin-top: 0px !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-top: 30px !important;
+    margin-bottom: 100px;
+  }
+
+  .header-home-ar img {
+    margin-top: -40px;
+  }
+}
+
+/* End header AR home section  */
+
+/* Start Who AR home section  */
+
+.Who-home-ar {
+  background-image: url("/assets/images/background.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  font-family: "Cairo", sans-serif !important;
+  height: 700px !important;
+}
+
+.who-content-ar h2 {
+  color: #830a4d !important;
+  text-align: right;
+  margin-right: 0px !important;
+  font-size: 40px !important;
+}
+
+.who-content-ar h4 {
+  color: #eaf3ef;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+  .Who-home-ar {
+    height: fit-content !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .who-content-ar h2 {
+    text-align: right !important;
+  }
+
+  .who-content-ar h4 {
+    color: #eaf3ef;
+    font-size: 18px;
+  }
+
+  .wow,
+  .fadeInLeft,
+  .fadeInRight,
+  .animated {
+    animation: none !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
+
+/* End Who AR home section  */
+
+/* Start what AR home section */
+
+.What-home-ar h2 {
+  font-size: 40px;
+  font-family: "Cairo", sans-serif !important;
+  margin-bottom: 100px !important;
+}
+.What-home-ar h4 {
+  font-size: 32px;
+  font-family: "Cairo", sans-serif !important;
+}
+.What-home-ar p {
+  font-size: 18px;
+  font-family: "Cairo", sans-serif !important;
+}
+
+/* End what AR home section */
+
+/* Start message home section  */
+
+.message-home-ar {
+  background-color: #31694c !important;
+  height: 762px;
+}
+.message-home-ar iframe {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.ar-input {
+  padding-bottom: 5px !important;
+}
+
+/* End message home section  */
+
+/* Start footer home section  */
+.footer-home {
+  background-color: #31694c;
+  margin-bottom: 70px !important;
+}
+.social a:hover .react-icon {
+  color: #eaf3ef !important;
+}
+
+#social-ar {
+  overflow: hidden;
+  text-align: center;
 }
 /* End footer home section  */
 
